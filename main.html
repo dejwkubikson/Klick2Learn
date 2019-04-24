@@ -1,0 +1,42 @@
+<head>
+  <title>Test</title>
+</head>
+
+<body>
+
+  {{> drag}}
+</body>
+
+<template name="drag">
+  <section>
+    <div class="content noselect">
+          <h3 class="center">Drag the right word into the space.</h3>
+            <div class="parapaper parapaperdd1 fold">
+              <ol class="olcircle">
+                <li>Since he lost his job, he doesn't know how he's going to get <div class="ddseatedtarget ddwidth7 dd1line">&nbsp;</div>.</li>
+                <li>She always gets <div class="ddseatedtarget ddwidth7 dd1line">&nbsp;</div> well with everyone she meets.</li>
+                <li>I don't know how Nelson Mandela got <div class="ddseatedtarget ddwidth7 dd1line">&nbsp;</div> his years of imprisonment.</li>
+                <li>She found it difficult to get <div class="ddseatedtarget ddwidth7 dd1line">&nbsp;</div> to her studies after the accident.</li>
+                <li>I don't think you'll be able to get <div class="ddseatedtarget ddwidth7 dd1line">&nbsp;</div> of that appointment - you promised to go.</li>
+              </ol>
+            </div>
+
+            <div class="dd-fixed-source-container animated slideInUp">
+              <div class="box1 box1dd1">
+                <div class="ddseat ddwidth7 dd1line"><div class="ddsourceseated ddwidth7 dd1line shadow" draggable="true">by</div></div>
+                <div class="ddseat ddwidth7 dd1line"><div class="ddsourceseated ddwidth7 dd1line shadow" draggable="true">on</div></div>
+                <div class="ddseat ddwidth7 dd1line"><div class="ddsourceseated ddwidth7 dd1line shadow" draggable="true">up</div></div>
+                <div class="ddseat ddwidth7 dd1line"><div class="ddsourceseated ddwidth7 dd1line shadow" draggable="true">down</div></div>
+                <div class="ddseat ddwidth7 dd1line"><div class="ddsourceseated ddwidth7 dd1line shadow" draggable="true">through</div></div>
+                <div class="ddseat ddwidth7 dd1line"><div class="ddsourceseated ddwidth7 dd1line shadow" draggable="true">out</div></div>
+              </div>
+            </div>
+            <div class="dd-fixed-fade animated slideInUp"></div>
+            <div class="dd-fixed-pad"></div>
+    </div>
+  </section>
+</template>
+
+<template name="complete">
+<h2>Well done!</h2>
+</template>
